@@ -4,9 +4,9 @@
   <img src="/public/LogoUnsulbar.png" width="300" alt="LogoUnsulbar" />
 </p>
 
-### <p align="center">RIZKY ADIWIJAYA</p>
+### <p align="center">MUH. IKRAM</p>
 
-### <p align="center">D022045</p></br>
+### <p align="center">D0222538</p></br>
 
 ### <p align="center">FRAMEWORK WEB BASED</p>
 
