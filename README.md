@@ -52,7 +52,6 @@
 | description    | text        | Deskripsi lengkap                           |
 | address        | varchar     | Alamat lengkap                              |
 | city           | varchar     | Kota lokasi                                 |
-| state          | varchar     | Provinsi lokasi                             |
 | zip_code       | varchar     | Kode pos                                    |
 | price          | decimal     | Harga kosan                                 |
 | listing_type   | enum        | sale, rent                                  |
