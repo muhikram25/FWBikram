@@ -83,20 +83,8 @@
 | created_at      | timestamp   | Tanggal dibuat                      |
 | updated_at      | timestamp   | Tanggal update                      |
 
-### 5. Tabel `testimonials`
 
-| Field           | Tipe Data   | Keterangan                            |
-|-----------------|-------------|----------------------------------------|
-| id              | bigint (PK) | ID testimoni                          |
-| client_name     | varchar     | Nama pemberi testimoni                |
-| client_position | varchar     | Posisi atau status (misal: Mahasiswa) |
-| content         | text        | Isi testimoni                         |
-| client_image    | varchar     | Foto pemberi testimoni (opsional)     |
-| rating          | integer     | Rating (1-5)                          |
-| created_at      | timestamp   | Tanggal dibuat                        |
-| updated_at      | timestamp   | Tanggal update                        |
-
-### 6. Tabel `contacts`
+### 5. Tabel `contacts`
 
 | Field        | Tipe Data   | Keterangan                     |
 |--------------|-------------|--------------------------------|
