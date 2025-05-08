@@ -52,13 +52,10 @@
 | description    | text        | Deskripsi lengkap                           |
 | address        | varchar     | Alamat lengkap                              |
 | city           | varchar     | Kota lokasi                                 |
-| zip_code       | varchar     | Kode pos                                    |
 | price          | decimal     | Harga kosan                                 |
-| listing_type   | enum        | sale, rent                                  |
 | bedrooms       | integer     | Jumlah kamar tidur                          |
 | bathrooms      | integer     | Jumlah kamar mandi                          |
 | sqft           | integer     | Luas bangunan                               |
-| year_built     | integer     | Tahun dibangun (opsional)                   |
 | property_type  | varchar     | Jenis properti (kos campur, putra, putri)   |
 | featured       | boolean     | Status featured                             |
 | created_at     | timestamp   | Tanggal dibuat                              |
