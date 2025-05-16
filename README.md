@@ -4,9 +4,9 @@
   <img src="/public/LogoUnsulbar.png" width="300" alt="LogoUnsulbar" />
 </p>
 
-### <p align="center">RIZKY ADIWIJAYA</p>
+### <p align="center">MUH. IKRAM</p>
 
-### <p align="center">D022045</p></br>
+### <p align="center">D0222538</p></br>
 
 ### <p align="center">FRAMEWORK WEB BASED</p>
 
@@ -51,9 +51,14 @@
 | title          | varchar     | Judul properti                              |
 | description    | text        | Deskripsi lengkap                           |
 | address        | varchar     | Alamat lengkap                              |
+| city           | varchar     | Kota lokasi                                 |
+| state          | varchar     | Provinsi lokasi                             |
+| zip_code       | varchar     | Kode pos                                    |
 | price          | decimal     | Harga kosan                                 |
 | bedrooms       | integer     | Jumlah kamar tidur                          |
 | bathrooms      | integer     | Jumlah kamar mandi                          |
+| sqft           | integer     | Luas bangunan                               |
+| year_built     | integer     | Tahun dibangun (opsional)                   |
 | property_type  | varchar     | Jenis properti (kos campur, putra, putri)   |
 | featured       | boolean     | Status featured                             |
 | created_at     | timestamp   | Tanggal dibuat                              |
@@ -80,9 +85,20 @@
 | created_at      | timestamp   | Tanggal dibuat                      |
 | updated_at      | timestamp   | Tanggal update                      |
 
+### 5. Tabel `testimonials`
 
+| Field           | Tipe Data   | Keterangan                            |
+|-----------------|-------------|----------------------------------------|
+| id              | bigint (PK) | ID testimoni                          |
+| client_name     | varchar     | Nama pemberi testimoni                |
+| client_position | varchar     | Posisi atau status (misal: Mahasiswa) |
+| content         | text        | Isi testimoni                         |
+| client_image    | varchar     | Foto pemberi testimoni (opsional)     |
+| rating          | integer     | Rating (1-5)                          |
+| created_at      | timestamp   | Tanggal dibuat                        |
+| updated_at      | timestamp   | Tanggal update                        |
 
-### 5. Tabel `contacts`
+### 6. Tabel `contacts`
 
 | Field        | Tipe Data   | Keterangan                     |
 |--------------|-------------|--------------------------------|
